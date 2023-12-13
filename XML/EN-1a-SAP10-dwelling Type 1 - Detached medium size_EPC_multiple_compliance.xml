@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAP-Compliance-Report xmlns="http://www.epcregister.com/xsd/sap" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.epcregister.com/xsd/sap http://www.epcregister.com/xsd/SAP/Templates/SAP-Report.xsd">
+  <SAP-Report xmlns="http://www.epcregister.com/xsd/sap" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.epcregister.com/xsd/sap http://www.epcregister.com/xsd/SAP/Templates/SAP-Report.xsd">
+    <Schema-Version-Original>SAP-Schema-19.0.0</Schema-Version-Original>
+    <SAP-Version>10.2</SAP-Version>
+    <SAP-Data-Version>10.2</SAP-Data-Version>
+    <PCDF-Revision-Number>008</PCDF-Revision-Number>
+    <Calculation-Software-Name>BRE SAP 10.2</Calculation-Software-Name>
+    <Calculation-Software-Version>1.0.1-alpha</Calculation-Software-Version>
+    <User-Interface-Name>BRE SAP interface 10.2</User-Interface-Name>
+    <User-Interface-Version>1.0.1-alpha</User-Interface-Version>
+    <Report-Header>
+      <RRN>0000-0000-0000-0000-0000</RRN>
+      <Inspection-Date>2013-11-09</Inspection-Date>
+      <Report-Type>3</Report-Type>
+      <Completion-Date>2014-01-31</Completion-Date>
+      <Registration-Date>2014-03-21</Registration-Date>
+      <Status>entered</Status>
+      <Language-Code>1</Language-Code>
+      <Tenure>ND</Tenure>
+      <Transaction-Type>6</Transaction-Type>
+      <Seller-Commission-Report>Y</Seller-Commission-Report>
+      <Property-Type>0</Property-Type>
+      <Home-Inspector>
+        <Name>John Smith</Name>
+        <Notify-Lodgement>Y</Notify-Lodgement>
+        <Contact-Address>
+          <Address-Line-1>27 High Street</Address-Line-1>
+          <Address-Line-2>Central District</Address-Line-2>
+          <Post-Town>Fallowham</Post-Town>
+          <Postcode>ND14 3YY</Postcode>
+        </Contact-Address>
+        <Web-Site>www.jrs.isp.net</Web-Site>
+        <E-Mail>john.smith@isp.net</E-Mail>
+        <Fax>030 5555 1235</Fax>
+        <Telephone>030 5555 1234</Telephone>
+        <Company-Name>ABC Energy Ratings Ltd</Company-Name>
+        <Scheme-Name>AAA Energy Assessors Ltd</Scheme-Name>
+        <Scheme-Web-Site>www.aaa.co.uk</Scheme-Web-Site>
+        <Identification-Number>
+          <Certificate-Number>AAA_123456</Certificate-Number>
+        </Identification-Number>
+      </Home-Inspector>
+      <Property>
+        <Address>
+          <Address-Line-1 />
+          <Post-Town />
+          <Postcode>BD8 7LL</Postcode>
+        </Address>
+        <UPRN>0000000000</UPRN>
+        <Site-Reference>dummygXXrulc</Site-Reference>
+        <Plot-Reference>dummyXJcHha0</Plot-Reference>
+      </Property>
+      <Region-Code>3</Region-Code>
+      <Country-Code>ENG</Country-Code>
+      <Related-Party-Disclosure>
+        <Related-Party-Disclosure-Number>1</Related-Party-Disclosure-Number>
+      </Related-Party-Disclosure>
+    </Report-Header>
+    <Energy-Assessment>
+      <Assessment-Date>2013-11-09</Assessment-Date>
+      <Property-Summary>
+        <Walls>
+          <Description>Average thermal transmittance 0.15 W/m²K</Description>
+          <Energy-Efficiency-Rating>5</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>5</Environmental-Efficiency-Rating>
+        </Walls>
+        <Roof>
+          <Description>Average thermal transmittance 0.12 W/m²K</Description>
+          <Energy-Efficiency-Rating>5</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>5</Environmental-Efficiency-Rating>
+        </Roof>
+        <Floor>
+          <Description>Average thermal transmittance 0.16 W/m²K</Description>
+          <Energy-Efficiency-Rating>5</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>5</Environmental-Efficiency-Rating>
+        </Floor>
+        <Windows>
+          <Description>High performance glazing</Description>
+          <Energy-Efficiency-Rating>5</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>5</Environmental-Efficiency-Rating>
+        </Windows>
+        <Main-Heating>
+          <Description>Boiler and radiators, mains gas</Description>
+          <Energy-Efficiency-Rating>4</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>4</Environmental-Efficiency-Rating>
+        </Main-Heating>
+        <Main-Heating-Controls>
+          <Description>Programmer, room thermostat and TRVs</Description>
+          <Energy-Efficiency-Rating>4</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>4</Environmental-Efficiency-Rating>
+        </Main-Heating-Controls>
+        <Secondary-Heating>
+          <Description>Room heaters, wood logs</Description>
+          <Energy-Efficiency-Rating>0</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>0</Environmental-Efficiency-Rating>
+        </Secondary-Heating>
+        <Hot-Water>
+          <Description>From main system, flue gas heat recovery</Description>
+          <Energy-Efficiency-Rating>5</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>5</Environmental-Efficiency-Rating>
+        </Hot-Water>
+        <Lighting>
+          <Description>Low energy lighting in 80% of fixed outlets</Description>
+          <Energy-Efficiency-Rating>5</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>5</Environmental-Efficiency-Rating>
+        </Lighting>
+        <Air-Tightness>
+          <Description>Air permeability 4.0 m³/h.m² (assumed)</Description>
+          <Energy-Efficiency-Rating>4</Energy-Efficiency-Rating>
+          <Environmental-Efficiency-Rating>4</Environmental-Efficiency-Rating>
+        </Air-Tightness>
+        <Has-Fixed-Air-Conditioning>false</Has-Fixed-Air-Conditioning>
+        <Has-Hot-Water-Cylinder>false</Has-Hot-Water-Cylinder>
+        <Has-Heated-Separate-Conservatory>false</Has-Heated-Separate-Conservatory>
+        <Dwelling-Type>Detached house</Dwelling-Type>
+        <Total-Floor-Area>149</Total-Floor-Area>
+        <Multiple-Glazed-Percentage>100</Multiple-Glazed-Percentage>
+      </Property-Summary>
+      <Energy-Use>
+        <Energy-Rating-Average>60</Energy-Rating-Average>
+        <Energy-Rating-Current>84</Energy-Rating-Current>
+        <Energy-Rating-Potential>90</Energy-Rating-Potential>
+        <Environmental-Impact-Current>87</Environmental-Impact-Current>
+        <Environmental-Impact-Potential>88</Environmental-Impact-Potential>
+        <Energy-Consumption-Current>78</Energy-Consumption-Current>
+        <Energy-Consumption-Potential>78</Energy-Consumption-Potential>
+        <CO2-Emissions-Current>1.9</CO2-Emissions-Current>
+        <CO2-Emissions-Potential>1.7</CO2-Emissions-Potential>
+        <CO2-Emissions-Current-Per-Floor-Area>13.0</CO2-Emissions-Current-Per-Floor-Area>
+        <Lighting-Cost-Current currency="GBP">74</Lighting-Cost-Current>
+        <Lighting-Cost-Potential currency="GBP">74</Lighting-Cost-Potential>
+        <Heating-Cost-Current currency="GBP">272</Heating-Cost-Current>
+        <Heating-Cost-Potential currency="GBP">272</Heating-Cost-Potential>
+        <Hot-Water-Cost-Current currency="GBP">93</Hot-Water-Cost-Current>
+        <Hot-Water-Cost-Potential currency="GBP">93</Hot-Water-Cost-Potential>
+        <DER>13.22</DER>
+        <TER>13.07</TER>
+        <DPER>79.48</DPER>
+        <TPER>71.82</TPER>
+        <DFEE>43.2</DFEE>
+        <TFEE>43.4</TFEE>
+      </Energy-Use>
+      <LZC-Energy-Sources>
+        <LZC-Energy-Source>4</LZC-Energy-Source>
+      </LZC-Energy-Sources>
+      <Renewable-Heat-Incentive>
+        <RHI-New-Dwelling>
+          <Space-Heating>6185</Space-Heating>
+          <Water-Heating>2056</Water-Heating>
+        </RHI-New-Dwelling>
+      </Renewable-Heat-Incentive>
+      <Suggested-Improvements>
+        <Improvement>
+          <Improvement-Category>5</Improvement-Category>
+          <Green-Deal-Category>NI</Green-Deal-Category>
+          <Improvement-Type>U</Improvement-Type>
+          <Improvement-Details>
+            <Improvement-Number>34</Improvement-Number>
+          </Improvement-Details>
+          <Indicative-Cost>£9,000 - £14,000</Indicative-Cost>
+          <Sequence>1</Sequence>
+          <Typical-Saving currency="GBP">0</Typical-Saving>
+          <Energy-Performance-Rating>90</Energy-Performance-Rating>
+          <Environmental-Impact-Rating>88</Environmental-Impact-Rating>
+        </Improvement>
+      </Suggested-Improvements>
+    </Energy-Assessment>
+    <SAP10-Data>
+      <SAP-Property-Details>
+        <SAP-Energy-Source>
+          <Electricity-Tariff>1</Electricity-Tariff>
+          <Hydro-Electric-Certificate>dummyaiFzJNY</Hydro-Electric-Certificate>
+        </SAP-Energy-Source>
+        <SAP-Heating>
+          <Main-Heating-Details>
+            <Main-Heating>
+              <Main-Heating-Number>1</Main-Heating-Number>
+              <Main-Heating-Category>2</Main-Heating-Category>
+              <Main-Heating-Fraction>1</Main-Heating-Fraction>
+              <Main-Heating-Data-Source>1</Main-Heating-Data-Source>
+              <Main-Fuel-Type>1</Main-Fuel-Type>
+              <Main-Heating-Control>2106</Main-Heating-Control>
+              <Is-Condensing-Boiler>false</Is-Condensing-Boiler>
+              <Condensing-Boiler-Heat-Distribution>55</Condensing-Boiler-Heat-Distribution>
+              <Heat-Emitter-Type>1</Heat-Emitter-Type>
+              <Main-Heating-Flue-Type>2</Main-Heating-Flue-Type>
+              <Is-Flue-Fan-Present>true</Is-Flue-Fan-Present>
+              <Is-Central-Heating-Pump-In-Heated-Space>true</Is-Central-Heating-Pump-In-Heated-Space>
+              <Is-Oil-Pump-In-Heated-Space>false</Is-Oil-Pump-In-Heated-Space>
+              <Is-Interlocked-System>true</Is-Interlocked-System>
+              <Has-Separate-Delayed-Start>false</Has-Separate-Delayed-Start>
+              <Is-Main-Heating-HETAS-Approved>false</Is-Main-Heating-HETAS-Approved>
+              <Has-FGHRS>true</Has-FGHRS>
+              <Central-Heating-Pump-Age>2</Central-Heating-Pump-Age>
+              <Main-Heating-Index-Number>016634</Main-Heating-Index-Number>
+              <FGHRS-Index-Number>060024</FGHRS-Index-Number>
+              <FGHRS-Energy-Source>
+                <Electricity-Tariff>ND</Electricity-Tariff>
+              </FGHRS-Energy-Source>
+              <Main-Heating-Manufacturer>dummyhZSmM1E</Main-Heating-Manufacturer>
+              <Main-Heating-Model>dummyDVk7XGY</Main-Heating-Model>
+              <Main-Heating-Efficiency>89.9</Main-Heating-Efficiency>
+              <Main-Heating-System-Type>dummyOz69Qik</Main-Heating-System-Type>
+              <Main-Heating-Commissioning-Certificate>dummyl4NldAw</Main-Heating-Commissioning-Certificate>
+              <Main-Heating-Installation-Engineer>dummyOkr9C68</Main-Heating-Installation-Engineer>
+              <Heating-Controller-Function>dummyUDopg90</Heating-Controller-Function>
+              <Heating-Controller-Ecodesign-Class>dummyrHd249g</Heating-Controller-Ecodesign-Class>
+              <Heating-Controller-Manufacturer>dummyPjvdLY8</Heating-Controller-Manufacturer>
+              <Heating-Controller-Model>dummyhtizsdE</Heating-Controller-Model>
+            </Main-Heating>
+          </Main-Heating-Details>
+          <Is-Heat-Pump-Installed-To-MIS>false</Is-Heat-Pump-Installed-To-MIS>
+          <Secondary-Heating-Category>10</Secondary-Heating-Category>
+          <Secondary-Heating-Data-Source>3</Secondary-Heating-Data-Source>
+          <Secondary-Heating-Code>633</Secondary-Heating-Code>
+          <Secondary-Fuel-Type>20</Secondary-Fuel-Type>
+          <Is-Secondary-Heating-HETAS-Approved>true</Is-Secondary-Heating-HETAS-Approved>
+          <Water-Heating-Code>901</Water-Heating-Code>
+          <Water-Fuel-Type>1</Water-Fuel-Type>
+          <Thermal-Store>1</Thermal-Store>
+          <Is-Heat-Pump-Assisted-By-Immersion>false</Is-Heat-Pump-Assisted-By-Immersion>
+          <Is-Immersion-For-Summer-Use>false</Is-Immersion-For-Summer-Use>
+          <Has-Hot-Water-Cylinder>false</Has-Hot-Water-Cylinder>
+          <Has-Cylinder-Thermostat>true</Has-Cylinder-Thermostat>
+          <Is-Hot-Water-Separately-Timed>false</Is-Hot-Water-Separately-Timed>
+          <Has-Fixed-Air-Conditioning>false</Has-Fixed-Air-Conditioning>
+          <Shower-Outlets>
+            <Shower-Outlet>
+              <Shower-Outlet-Type>3</Shower-Outlet-Type>
+              <Shower-Flow-Rate>7</Shower-Flow-Rate>
+              <Shower-WWHRS>1</Shower-WWHRS>
+            </Shower-Outlet>
+          </Shower-Outlets>
+          <Secondary-Heating-Efficiency>65.0</Secondary-Heating-Efficiency>
+          <Secondary-Heating-Commisioning-Certificate>dummyuzxIU2M</Secondary-Heating-Commisioning-Certificate>
+          <Secondary-Heating-Installation-Engineer>dummy2EvpI-s</Secondary-Heating-Installation-Engineer>
+          <Hot-Water-Controls-Manufacturer>dummyKV64Zuw</Hot-Water-Controls-Manufacturer>
+          <Hot-Water-Controls-Model>dummyaoqaSI4</Hot-Water-Controls-Model>
+        </SAP-Heating>
+        <SAP-Building-Parts>
+          <SAP-Building-Part>
+            <Identifier>Main Dwelling</Identifier>
+            <SAP-Thermal-Bridges>
+              <Thermal-Bridge-Code>5</Thermal-Bridge-Code>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E2</Thermal-Bridge-Type>
+                <Length>20.1</Length>
+                <Psi-Value>0.2</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefUFbRnEQ</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E3</Thermal-Bridge-Type>
+                <Length>16.9</Length>
+                <Psi-Value>0.038</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefGfRrXx8</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E4</Thermal-Bridge-Type>
+                <Length>38.1</Length>
+                <Psi-Value>0.038</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefHwLJ8fw</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E5</Thermal-Bridge-Type>
+                <Length>38.4</Length>
+                <Psi-Value>0.062</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefO-4M55A</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E6</Thermal-Bridge-Type>
+                <Length>38.4</Length>
+                <Psi-Value>0.052</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefUp5v1m8</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E10</Thermal-Bridge-Type>
+                <Length>19.4</Length>
+                <Psi-Value>0.041</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefVjBd90o</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E12</Thermal-Bridge-Type>
+                <Length>19</Length>
+                <Psi-Value>0.11</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsirefYYNfqkM</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E16</Thermal-Bridge-Type>
+                <Length>26</Length>
+                <Psi-Value>0.04</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsiref9AENsok</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+              <SAP-Thermal-Bridge>
+                <Thermal-Bridge-Type>E17</Thermal-Bridge-Type>
+                <Length>5.2</Length>
+                <Psi-Value>-0.14</Psi-Value>
+                <Psi-Value-Source>3</Psi-Value-Source>
+                <Psi-Value-Calculation-Reference>testpsiref_qgH33M</Psi-Value-Calculation-Reference>
+              </SAP-Thermal-Bridge>
+            </SAP-Thermal-Bridges>
+            <Building-Part-Number>1</Building-Part-Number>
+            <Construction-Age-Band>A</Construction-Age-Band>
+            <SAP-Floor-Dimensions>
+              <SAP-Floor-Dimension>
+                <Floor-Type>2</Floor-Type>
+                <Storey>0</Storey>
+                <Storey-Height>2.5</Storey-Height>
+                <Total-Floor-Area>74.3</Total-Floor-Area>
+                <U-Value>0.16</U-Value>
+                <Heat-Loss-Area>74.3</Heat-Loss-Area>
+                <Kappa-Value>80</Kappa-Value>
+                <Name>dummy7XSUvYg</Name>
+              </SAP-Floor-Dimension>
+              <SAP-Floor-Dimension>
+                <Floor-Type>3</Floor-Type>
+                <Storey>1</Storey>
+                <Storey-Height>2.7</Storey-Height>
+                <Total-Floor-Area>74.3</Total-Floor-Area>
+                <U-Value>0</U-Value>
+                <Heat-Loss-Area>0</Heat-Loss-Area>
+                <Kappa-Value>18</Kappa-Value>
+                <Kappa-Value-From-Below>9</Kappa-Value-From-Below>
+                <Name>dummySVoJ2XE</Name>
+              </SAP-Floor-Dimension>
+            </SAP-Floor-Dimensions>
+            <SAP-Openings>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>1</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.2</Height>
+                <Width>1.8</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>2</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.35</Height>
+                <Width>1.8</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>3</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.2</Height>
+                <Width>0.9</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>4</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.2</Height>
+                <Width>1.8</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>5</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.2</Height>
+                <Width>1.8</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>6</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.2</Height>
+                <Width>1.2</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>7</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.05</Height>
+                <Width>1.2</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>8</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.2</Height>
+                <Width>1.8</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>9</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.05</Height>
+                <Width>1.2</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>10</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.05</Height>
+                <Width>1.8</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>11</Name>
+                <Type>Windows (2)</Type>
+                <Height>2.1</Height>
+                <Width>2.4</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>12</Name>
+                <Type>Doors</Type>
+                <Height>2.1</Height>
+                <Width>0.9</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>13</Name>
+                <Type>Doors</Type>
+                <Height>2.1</Height>
+                <Width>0.9</Width>
+                <Orientation>3</Orientation>
+              </SAP-Opening>
+              <SAP-Opening>
+                <Location>Walls (1)</Location>
+                <Name>14</Name>
+                <Type>Windows (1)</Type>
+                <Height>1.05</Height>
+                <Width>0.6</Width>
+                <Orientation>1</Orientation>
+              </SAP-Opening>
+            </SAP-Openings>
+            <SAP-Roofs>
+              <SAP-Roof>
+                <Name>Roof (1)</Name>
+                <U-Value>0.12</U-Value>
+                <Total-Roof-Area>74.3</Total-Roof-Area>
+                <Roof-Type>2</Roof-Type>
+                <Kappa-Value>9</Kappa-Value>
+              </SAP-Roof>
+            </SAP-Roofs>
+            <SAP-Walls>
+              <SAP-Wall>
+                <Name>Walls (1)</Name>
+                <Total-Wall-Area>199.68</Total-Wall-Area>
+                <U-Value>0.15</U-Value>
+                <Wall-Type>2</Wall-Type>
+                <Kappa-Value>60</Kappa-Value>
+                <Is-Curtain-Walling>false</Is-Curtain-Walling>
+              </SAP-Wall>
+              <SAP-Wall>
+                <Name>Internal wall (1)</Name>
+                <Total-Wall-Area>200</Total-Wall-Area>
+                <U-Value>0</U-Value>
+                <Wall-Type>5</Wall-Type>
+                <Kappa-Value>75</Kappa-Value>
+                <Is-Curtain-Walling>false</Is-Curtain-Walling>
+              </SAP-Wall>
+            </SAP-Walls>
+          </SAP-Building-Part>
+        </SAP-Building-Parts>
+        <SAP-Ventilation>
+          <Closed-Flues-Count>0</Closed-Flues-Count>
+          <Boilers-Flues-Count>0</Boilers-Flues-Count>
+          <Other-Flues-Count>0</Other-Flues-Count>
+          <Open-Chimneys-Count>0</Open-Chimneys-Count>
+          <Blocked-Chimneys-Count>0</Blocked-Chimneys-Count>
+          <Open-Flues-Count>1</Open-Flues-Count>
+          <Extract-Fans-Count>3</Extract-Fans-Count>
+          <PSV-Count>0</PSV-Count>
+          <Flueless-Gas-Fires-Count>0</Flueless-Gas-Fires-Count>
+          <Sheltered-Sides-Count>2</Sheltered-Sides-Count>
+          <Pressure-Test>2</Pressure-Test>
+          <Air-Permeability>4</Air-Permeability>
+          <Has-Draught-Lobby>false</Has-Draught-Lobby>
+          <Is-Mechanical-Vent-Approved-Installer-Scheme>false</Is-Mechanical-Vent-Approved-Installer-Scheme>
+          <Ventilation-Type>1</Ventilation-Type>
+          <Wall-Type>2</Wall-Type>
+          <Pressure-Test-Certificate-Number>dummyswapv2Q</Pressure-Test-Certificate-Number>
+        </SAP-Ventilation>
+        <SAP-Opening-Types>
+          <SAP-Opening-Type>
+            <Name>Doors</Name>
+            <Data-Source>2</Data-Source>
+            <U-Value>1.5</U-Value>
+            <Type>1</Type>
+            <Glazing-Type>1</Glazing-Type>
+            <IsArgonFilled>false</IsArgonFilled>
+          </SAP-Opening-Type>
+          <SAP-Opening-Type>
+            <Name>Windows (1)</Name>
+            <Data-Source>2</Data-Source>
+            <U-Value>1.2</U-Value>
+            <Type>4</Type>
+            <Glazing-Type>3</Glazing-Type>
+            <IsArgonFilled>false</IsArgonFilled>
+            <Solar-Transmittance>0.57</Solar-Transmittance>
+            <Frame-Factor>0.7</Frame-Factor>
+          </SAP-Opening-Type>
+          <SAP-Opening-Type>
+            <Name>Windows (2)</Name>
+            <Data-Source>2</Data-Source>
+            <U-Value>1.3</U-Value>
+            <Type>4</Type>
+            <Glazing-Type>3</Glazing-Type>
+            <IsArgonFilled>false</IsArgonFilled>
+            <Solar-Transmittance>0.57</Solar-Transmittance>
+            <Frame-Factor>0.7</Frame-Factor>
+          </SAP-Opening-Type>
+        </SAP-Opening-Types>
+        <Property-Type>0</Property-Type>
+        <Built-Form>1</Built-Form>
+        <Living-Area>37.2</Living-Area>
+        <Lowest-Storey-Area>2</Lowest-Storey-Area>
+        <Orientation>0</Orientation>
+        <Cold-Water-Source>1</Cold-Water-Source>
+        <Windows-Overshading>2</Windows-Overshading>
+        <Is-In-Smoke-Control-Area>unknown</Is-In-Smoke-Control-Area>
+        <SAP-Lighting>
+          <Fixed-Lights>
+            <Fixed-Light>
+              <Lighting-Outlets>2</Lighting-Outlets>
+              <Lighting-Efficacy>11.2</Lighting-Efficacy>
+              <Lighting-Power>60</Lighting-Power>
+            </Fixed-Light>
+            <Fixed-Light>
+              <Lighting-Outlets>8</Lighting-Outlets>
+              <Lighting-Efficacy> 66.9</Lighting-Efficacy>
+              <Lighting-Power> 14</Lighting-Power>
+            </Fixed-Light>
+          </Fixed-Lights>
+        </SAP-Lighting>
+        <Conservatory-Type>1</Conservatory-Type>
+        <Terrain-Type>1</Terrain-Type>
+        <Is-Dwelling-Export-Capable>true</Is-Dwelling-Export-Capable>
+        <Gas-Smart-Meter-Present>false</Gas-Smart-Meter-Present>
+        <Electricity-Smart-Meter-Present>false</Electricity-Smart-Meter-Present>
+      </SAP-Property-Details>
+      <Data-Type>1</Data-Type>
+    </SAP10-Data>
+    <Insurance-Details>
+      <Insurer>ABC</Insurer>
+      <Policy-No>123</Policy-No>
+      <Effective-Date>2014-01-01</Effective-Date>
+      <Expiry-Date>2015-12-31</Expiry-Date>
+      <PI-Limit>0</PI-Limit>
+    </Insurance-Details>
+    <ExternalDefinitions-Revision-Number>4.9c</ExternalDefinitions-Revision-Number>
+  </SAP-Report>
+  <Client-Name>Dr yCuh6Co</Client-Name>
+  <Client-Company>Z7uRdZJriw inc</Client-Company>
+  <Client-Address>
+    <Address-Line-1>99 Test Street</Address-Line-1>
+    <Address-Line-2>tznBUbEville</Address-Line-2>
+    <Address-Line-3>OB3IlJEshire</Address-Line-3>
+    <Post-Town>Avant Town</Post-Town>
+    <Postcode>AB1 2CD</Postcode>
+  </Client-Address>
+  <Is-Multiple-Compliance>true</Is-Multiple-Compliance>
+</SAP-Compliance-Report>
